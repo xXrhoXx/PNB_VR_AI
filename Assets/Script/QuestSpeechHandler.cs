@@ -69,7 +69,7 @@ public class QuestSpeechHandler : MonoBehaviour
         }
         else
         {
-            text.text = "Sorry, I didn't hear anything. Try holding 'A' while speaking.";
+            text.text = "Sorry, I didn't hear anything. Try holding 'B' while speaking.";
         }
     }
     //async Task StopAndTranscribe()
