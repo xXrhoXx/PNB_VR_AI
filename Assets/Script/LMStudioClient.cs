@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class LMStudioClient : MonoBehaviour
 {
-    private string apiURL = "http://192.168.0.103:1234/v1/chat/completions";
+    private string apiURL = "http://10.30.163.187:1234/v1/chat/completions";
     // Store the conversation here
     private List<Message> chatHistory = new List<Message>();
 
